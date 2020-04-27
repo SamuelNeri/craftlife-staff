@@ -42,14 +42,14 @@ command:
   stat-types: '&cStat type must be wins, losses, kills, deaths, elo, xp, pareffect,
     proeffect, glasscolor, killsound, or winsound'
 kit:
-  vote-random: '&1Random'
-  rand-lore: '&cRandomly pick a kit1'
-  vote-nokit: '&1No Kit'
+  vote-random: '&1Aleatorio'
+  rand-lore: '&cpegou um kit aleatorio1'
+  vote-nokit: '&1sem kit'
   nokit-lore: '&cBare Bones!'
 taunt:
   prefix: '&5TAUNT: &b<{player}>'
 event:
-  announce: '&c{event} &bEvent starting in {time}'
+  announce: '&c{event} &bEvent Comecando em {time}'
   crateInv: '&bSkyWars Crate'
 maps:
   setLookDirection: '&bLook direction spawn set to your location for map {mapname}'
@@ -85,9 +85,9 @@ party:
   left: '&6{player} &cleft your party!'
   invite: '&6{leader} &binvited you to join the party {partyname}&b! Type "/swparty
     accept" to join the party!'
-  clicktoaccept: '&6Click Here to Accept'
-  invited: '&bYou invited &6{player} &bto join your party!'
-  pendingInvite: '&6{player} &calready has a pending party invite!'
+  clicktoaccept: '&6Clique aqui para aceitar'
+  invited: '&bVoce convidou &6{player} &b para sua  party!'
+  pendingInvite: '&6{player} &cja existe um pedido pendente!'
   couldnotfind: '&cNao foi encontrado a party &6{player}&c!'
   noinvite: '&cVoce nao foi convidado para a party!'
   youjoined: '&bVoce entrou na party {partyname}!'
@@ -347,7 +347,7 @@ items:
   taunt-sel: '&bTAUNT SELECTION MENU'
 timer:
   game-timer: '&4SkyWars Sudden Death starts in &e{time}!'
-  wait-timer: '&4SkyWars starting in: &e{time}'
+  wait-timer: '&4SkyWars Comecando em: &e{time}'
   minutes: minutes
   minute: minute
   seconds: seconds
@@ -410,7 +410,7 @@ scoreboards:
     line12: '&a{winner7}'
     line13: '&a{winner8}'
     line14: ''
-    line15: '&5Restarting In:'
+    line15: '&5ReComecando em:'
     line16: '&a{restarttime}'
   lobbyboard:
     line1: '&e&lSkyWars Stats'
